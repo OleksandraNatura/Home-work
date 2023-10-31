@@ -1,66 +1,86 @@
-*{
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap'); */
+
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #f6f5f5;
+  font-family: 'Inter', sans-serif;
+  line-height: normal;
 }
-.conteiner{
+
+.conteiner {
   width: 360px;
   margin: 100px auto;
   border-radius: 20px;
   background-color: #FFF;
   padding: 56px 20px 91px 20px;
+  font-weight: 600;
 }
-button{
+
+button {
   border: none;
   background-color: #fff;
 }
-input{
+
+input {
   border-radius: 12px;
   width: 316px;
   height: 44px;
 }
-.menu-items{
+
+.menu-items {
   padding: 24px 8px;
 }
 
-.position-img{
+.position-img {
   width: 74px;
   height: 74px;
   border-radius: 12px;
   border-color: #EFEFEF;
   padding: 24px 8px;
 }
-.position-title{
+
+.position-title {
   color: #C4C4C4;
+  font-weight: 500;
 }
-.menu-position{
+
+.menu-position {
   display: inline-block;
 }
-.menu-position:hover .position-img{
+
+.menu-position:hover .position-img {
   background-color: #EAE2B7;
 }
-.menu-position:hover .position-title{
+
+.menu-position:hover .position-title {
   color: black;
 }
 
-.img-menu, .menu-section{
+.img-menu,
+.menu-section {
   display: inline-block;
 }
-.img-menu{
+
+.img-menu {
   width: 60.769px;
   height: 55.431px;
 }
- .menu-section{
+
+.menu-section {
   color: #003049;
   margin: 18px;
- }
- .menu-burger-title{
+}
+
+.menu-burger-title {
   padding: 4px;
- }
- 
-.menu-burger-price{
+  font-weight: 400;
+}
+
+.menu-burger-price {
   color: red;
   padding: 4px;
+  font-weight: 500;
 }
