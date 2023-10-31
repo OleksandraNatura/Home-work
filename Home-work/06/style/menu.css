@@ -45,10 +45,22 @@ input{
   color: black;
 }
 
-.img-menu, .menu-burger-title, .menu-burger-price{
+.img-menu, .menu-section{
   display: inline-block;
 }
-
+.img-menu{
+  width: 60.769px;
+  height: 55.431px;
+}
+ .menu-section{
+  color: #003049;
+  margin: 18px;
+ }
+ .menu-burger-title{
+  padding: 4px;
+ }
+ 
 .menu-burger-price{
   color: red;
+  padding: 4px;
 }
