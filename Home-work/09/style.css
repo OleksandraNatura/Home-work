@@ -22,6 +22,7 @@
   top: 40px;
   left: 40px;
   z-index: 2;
+  text-align: center;
 }
 
 .diia{
@@ -46,7 +47,7 @@
   width: 150px;
   height: 150px;
   margin: 100px;
-  padding: 50px;
+  padding: 46px 25px 0 25px;
   position: absolute;
   top: 75px;
   left: 75px;
@@ -71,14 +72,24 @@
   top: 300px;
   left: 300px;
   z-index: 1;
-  /* border-radius: 75px; */
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
+}
+
+.element{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
   background: linear-gradient(180deg, #2137FC 0%, #2137FB 50.01%, #FFD84B 50.04%, #FFD84B 100%);
 }
 
 .img-rectangle{
-  height: 100px;
-  width: 100px;
-  
+  height: 65px;
+  width: 115px;
+  position: absolute;
+  left: 5px;
+  bottom: 0px;
 }
