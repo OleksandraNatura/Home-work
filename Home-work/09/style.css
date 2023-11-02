@@ -37,6 +37,9 @@
   background: linear-gradient(180deg, #2137FC 0%, #2137FB 50.01%, #FFD84B 50.04%, #FFD84B 100%);
   width: 30px;
   height: 20px;
+  position: absolute;
+  left: 60px;
+  bottom: 40px;
 }
 
 .diia-squaer{
@@ -54,6 +57,9 @@
 .img-glyph{
   width: 100px;
   height: 60px;
+  position: absolute;
+  left: 30px;
+  bottom: 45px;
 }
 
 .diia-circle{
@@ -74,4 +80,5 @@
 .img-rectangle{
   height: 100px;
   width: 100px;
+  
 }
