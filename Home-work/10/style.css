@@ -5,13 +5,14 @@
 body{
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: #F2F2F2;
-  width: 1243px;
+  /* width: 1243px; */
+  width: 65%;
   margin: 0 auto;
   padding: 142px 0 128px;
 }
 
 .title{
-  width: 995px;
+  max-width: 995px;
   color: #2D3640;
   font-size: 48px;
   font-weight: normal;
@@ -22,7 +23,7 @@ body{
   color: #2B292D;
   font-size: 20px;
   font-weight: 400;
-  width: 695px;
+  max-width: 695px;
   font-style: normal;
   line-height: 40px;
   margin-bottom: 50px;
@@ -31,7 +32,7 @@ body{
 .title, .title-paragrah{
   /* position: relative;
   left: 300px; */
-  margin-left: 300px;
+  margin-left: 150px;
 }
 
 .conteiner{
@@ -41,17 +42,18 @@ body{
 .clearfix::after{
   content: "";
   clear: both;
-  display: table;
+  display: block;
 }
 
 .conteiner-position{
   padding: 58px 0 122px;
-  width: 200px;
+  width: 23%;
+  min-width: 200px;
   background-color: white;
   border-radius: 20px;
   float: inline-start;
   position: relative;
-  left: 300px;
+  left: 150px;
   margin-right: 20px;
   overflow: hidden;
 }
@@ -64,8 +66,8 @@ body{
 
 .image-photo{
   overflow: hidden;
-  width: 114px;
-  height: 114px;
+  max-width: 114px;
+  max-height: 114px;
   margin: o auto;
   border-radius: 100%;
   border: 3px solid #EFF3F8;
