@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Nunito Sans", sans-serif;
+  margin: 55px 135px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1px;
+  padding-left: 35px;
+}
+
+.menu{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.serch{
+  display: flex;
+}
+
+.menu li{
+  display: inline-block;
+}
+
+.main{
+  display: flex;
+  padding-top: 160px;
+}
+
+.img{
+  width: 100%;
+}
+
+h3{
+  color: #F2994A;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 1px;
+}
+
+h1{
+  color: #000;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 1px;
+}
+
+h2::after{
+  content: "";
+  display: inline-block;
+  border-radius: 4px;
+  background: #F2994A;
+  width: 188px;
+  height: 6px;
+  flex-shrink: 0;
+}
+
+p{
+  color: var(--Gray-2, #4F4F4F);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; 
+  letter-spacing: 1px;
+}
+
+.video{
+  text-align: center;
+  font-size: 0;
+}
+
+.video-icon{
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+  border-radius: 100%;
+  background-color: #3F9AB7;
+  padding: 30px 0 0 0;
+}
+
+.watch-video{
+
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviews{
+  background-color: #3F9AB7;
+  width: 1440px;
+  height: 118px;
+  margin-top: 51px;
+}
