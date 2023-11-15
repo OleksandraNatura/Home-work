@@ -1,0 +1,29 @@
+@import url(./reset.css);
+
+*{
+  box-sizing: border-box;
+}
+
+header{
+  background-image: url(../img/Rectangle.png);
+  width: 1628px;
+  height: 780px;
+}
+
+body{
+  color: #FFF;
+  font-family: 'Inter' sans-serif;
+  font-style: normal;
+  position: relative;
+}
+
+.netflix{
+  padding: 70px 33px 49px 80px;
+}
+
+.netflix .conteiner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
