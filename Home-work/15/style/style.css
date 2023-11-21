@@ -6,8 +6,8 @@
 
 header{
   background-image: url(../img/Rectangle.png);
-  width: 1628px;
-  height: 780px;
+  background-size: cover;
+  background-position: center;
 }
 
 body{
@@ -21,9 +21,36 @@ body{
   padding: 70px 33px 49px 80px;
 }
 
-.netflix .conteiner{
+.conteiner{
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  padding-bottom: 114px;
 }
 
+.logo::after{
+  content: "";
+  display: inline-block;
+  border-left: 1px solid #FFF;
+  height: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.search-block .fa-solid{
+  color: #FFF;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: 500;
+  display: inline;
+  border-right: #FFF solid 1px;
+}
+
+.reviews{
+  font-size: 32px;
+}
+
+.fa-solid{
+  color: yellow;
+}
