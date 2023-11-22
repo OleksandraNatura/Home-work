@@ -39,11 +39,13 @@
 
     <section class="content">
       <div class="text-block">
-        <h3>Drama</h3>
-        <h3>Thriller</h3>
+        <h3 class="drama">Drama</h3>
+        <h3 class="drama">Thriller</h3>
         <h3>Supernatural</h3>
         <h1>Stranger Things</h1>
-        <h2>2019 DIRECTOR: Shawn Levy seasons: 3 (5 Episodes)</h2>
+        <h2 class="parameters films"><strong>2019</strong></h2>
+        <h2 class="parameters films"><strong>DIRECTOR: </strong> Shawn Levy</h2>
+        <h2 class="parameters"><strong>seasons: 3</strong> (5 Episodes)</h2>
         <p> In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As
           they search for answers, the children unravel a series of extraordinary mysteries.</p>
       </div>
@@ -55,8 +57,11 @@
         <i class="fa-regular fa-star"></i>
       </div>
       <div class="button-block">
-        <button class="strean-now">STREAM NOW</button>
-        <button class="all-episode">ALL EPISODES</button>
+        <div class="button-play">
+          <button class="strean-now" type="button">STREAM NOW</button>
+          <i class="fa-solid fa-circle-play"></i>
+        </div>
+        <button class="all-episode" type="button">ALL EPISODES</button>
       </div>
     </section>
 
@@ -64,8 +69,8 @@
       <div class="footer-conteiner">
         <div class="text">
           <h4>POPULAR THIS WEEK</h4>
-          <img src="./img/navigate-next.svg" alt="next">
-          <img src="./img/next.svg" alt="next">
+          <i class="fa-solid fa-square-caret-right fa-rotate-180"></i>
+          <i class="fa-solid fa-square-caret-right"></i>
         </div>
         <div class="film">
           <img src="./img/breaking-bad.png" alt="breaking-bad">
@@ -74,7 +79,7 @@
           <img src="./img/money-heist.png" alt="money-heist">
           <img src="./img/squid-game.png" alt="squid-game">
           <div class="like">
-            <button>
+            <button class="button-like">
               <span>+16</span>
             </button>
           </div>
