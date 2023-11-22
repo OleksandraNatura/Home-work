@@ -8,6 +8,7 @@ header{
   background-image: url(../img/Rectangle.png);
   background-size: cover;
   background-position: center;
+  padding: 70px 33px 49px 80px;
 }
 
 body{
@@ -17,20 +18,22 @@ body{
   position: relative;
 }
 
-.netflix{
-  padding: 70px 33px 49px 80px;
-}
-
 .conteiner{
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   padding-bottom: 114px;
 }
 
-.search-block, .user-photo{
+.conteiner-logo {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.conteiner-user {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .logo::after{
