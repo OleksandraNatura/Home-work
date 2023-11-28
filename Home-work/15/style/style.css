@@ -140,6 +140,7 @@ p{
   font-size: 22px;
   font-weight: 500;
   line-height: 141.523%;
+  border: none;
 }
 
 .fa-circle-play{
@@ -222,14 +223,15 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
 }
 
 .button-like::before{
   content: "";
   display: inline-block;
   border-left: 35px solid #D40D1F;
-  height: 62px;
-  margin-left: -56px;
+  height: 66px;
+  margin-left: -58px;
 }
 
 span{

@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  margin: 46px 24px 20px 24px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 105px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+}
+
+.list-menu{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.menu-text{
+  margin-right: 46px;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.shoppy{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 163px;
+  height: 46px;
+  background-color: black;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: -0.8px;
+}
+
+.search-menu{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fa-solid{
+  margin-right: 46px;
+  width: 20px;
+  height: 21px;
+}
+
+.shop-now{
+  display: flex;
+}
+
+.section-text{
+  width: 301px;
+  height: 132px;
+}
+
+.shop-now-build{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: -3px;
+}
+
+.shop-now-text{
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.button-shop-now{
+  width: 195px;
+  height: 50px;
+  border-radius: 15px;
+  background: #000;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+
+}
