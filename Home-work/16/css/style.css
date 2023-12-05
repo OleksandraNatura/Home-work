@@ -5,14 +5,14 @@
 body{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  margin: 0 26px;
+  margin: 0;
 }
 
 header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 105px;
+  margin: 37px 37px 34px 26px;
 }
 
 .menu{
@@ -122,12 +122,13 @@ header{
   width: 599.824px;
   height: 428.139px;
   transform: rotate(-0.014deg);
+  margin-top: 105px;
 }
 
 .boot-right{
   width: 381.992px;
   height: 341.62px;
-  margin-top: -60px;
+  margin-top: -36px;
   margin-left: 74px;
 }
 
@@ -156,7 +157,6 @@ h3{
 }
 
 h4{
-  
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;
@@ -257,12 +257,15 @@ h2{
 }
 
 footer{
-  width: 1512px;
-  height: 285px;
   background: #000;
-  display: flex;
   color: #FFF;
   margin-top: 160px;
+  padding: 63px 116px 20px 24px;
+}
+
+.account{
+  display: flex;
+  justify-content: flex-start;
 }
 
 .my-account{
@@ -291,6 +294,11 @@ li{
   width: 25px;
   height: 25px;
   color: #FFF;
+}
+
+.account-last{
+  position: relative;
+  padding-top: 36px;
 }
 
 .my-account-last{
@@ -348,5 +356,10 @@ li{
     justify-content: center;
     flex-direction: column;
     margin-left: 10%;
+  }
+
+  footer{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
