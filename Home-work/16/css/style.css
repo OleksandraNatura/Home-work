@@ -83,7 +83,6 @@ header{
 .section-text{
   width: 301px;
   height: 132px;
-  margin-right: 73px;
   margin-top: 150px;
 }
 
@@ -142,7 +141,6 @@ header{
   background-image: url(../img/boot_women.png);
   width: 724px;
   height: 454px;
-  flex-shrink: 0;
 }
 
 h3{
@@ -168,7 +166,6 @@ h4{
   background-image: url(../img/boot_men.png);
   width: 724px;
   height: 454px;
-  flex-shrink: 0;
 }
 
 .shop-now-women{
@@ -265,11 +262,13 @@ footer{
 
 .account{
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .my-account{
+  display: flex;
   margin: 50px 84px 6px 24px;
+  flex-direction: column;
 }
 
 .my-account-title{
@@ -347,7 +346,12 @@ li{
     display: block;
   }
   .women{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .men{
+    margin-bottom: 15px;
+    width: 100%;
   }
   .meiling-list{
     text-align: center;
@@ -359,7 +363,20 @@ li{
   }
 
   footer{
+    width: 100%;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .account{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .my-account{
+    margin: 0 6px;
   }
 }
