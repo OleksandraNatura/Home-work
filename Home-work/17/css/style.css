@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Sen', sans-serif;
+  font-style: normal;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.125rem 8rem 2.75rem 7.5rem;
+}
+
+h3 {
+  color: #BC436A;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.menu-conteiner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 2.5rem;
+  color: #767;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #BC436A;
+  font-weight: 800;
+}
+
+.menu-button {
+  border-radius: 4px;
+  background: #386E41;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 10px;
+  color: #FFF;
+  font-family: Avenir;
+  font-weight: 400;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-conteiner {
+  padding-top: 12.375rem;
+  padding-left: 7.5rem;
+}
+
+.main-conteiner::after {
+    content: "";
+    width: 7.5rem;
+    height: 7.5rem;
+    bottom: 85px;
+    left: -50px;
+    border: 10px solid #386E41;
+    position: fixed;
+}
+
+h2 {
+  color: #333;
+  font-size: 36px;
+  font-weight: 800;
+  padding-bottom: 1.44rem;
+}
+
+span {
+  color: #BC436A;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+p {
+  color: #767676;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main-img {
+  border-radius: 50%;
+}
+
+.main-take-you {
+  display: flex;
+  padding-bottom: 2.06rem;
+  padding-left: 7.5rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fa-chevron-right {
+  color: #776677;
+  padding-left: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.main-input {
+  display: flex;
+  margin-left: 7.5rem;
+  height: 6.25rem;
+  border-radius: 8px;
+  background: #386E41;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-button {
+  padding: 0.5rem 1.3rem;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #BC436A;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.11);
+  color: #FFF;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.fotter-text {
+  padding-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-angles-down {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-top: 8px;
+  color: #767676;
+}
