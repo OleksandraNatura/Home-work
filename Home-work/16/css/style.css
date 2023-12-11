@@ -50,6 +50,7 @@ header{
   font-weight: 800;
   line-height: 60px;
   letter-spacing: -0.8px;
+  border: none;
 }
 
 .search-menu{
@@ -114,7 +115,8 @@ header{
   font-family: Poppins;
   font-size: 18px;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 42px;
+  border: none;
 }
 
 .boot-left{
