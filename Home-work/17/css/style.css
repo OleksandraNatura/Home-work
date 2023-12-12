@@ -136,14 +136,9 @@ p {
   font-size: 1.125rem;
   font-weight: 400;
   width: 15.625rem;
-}
-
-.main-input-name::after{
-  content: "";
-  width: 253px;
-  height: 1px;
-  background-color: white;
-  display: inline-block;
+  background-image: url(../img/Line.png), url(../img/Line.png), url(../img/Line.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 .main-button {
