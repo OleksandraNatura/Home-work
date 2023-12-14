@@ -11,7 +11,7 @@ body {
   background-image: url(../img/Rectangle\ 4.png);
   background-repeat: no-repeat;
   position: relative;
-  background-position: top 7.5rem left 77.125rem;
+  background-position: top 7.5rem right 0;
 }
 
 .menu {
@@ -54,6 +54,7 @@ a:hover {
   color: #FFF;
   font-family: Avenir;
   font-weight: 400;
+  border: none;
 }
 
 .main-section {
@@ -64,7 +65,7 @@ a:hover {
 .main-conteiner {
   padding-top: 12.375rem;
   padding-left: 7.5rem;
-  margin-right: 78.87rem;
+  margin-right: 45.87rem;
   margin-bottom: 14.375rem;
 }
 
@@ -118,13 +119,14 @@ p {
 
 .main-input {
   display: flex;
-  margin-left: 7.5rem;
+  margin: 0 auto;
   height: 6.25rem;
   border-radius: 8px;
   background: #386E41;
   justify-content: space-around;
   align-items: center;
   border: none;
+  width: 89%;
 }
 
 .main-input-name {
@@ -152,6 +154,7 @@ p {
   font-family: Avenir;
   font-size: 18px;
   font-weight: 400;
+  border: none;
 }
 
 .fotter-text {
