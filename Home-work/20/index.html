@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Sen:wght@400;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <section class="menu">
+      <div class="menu-logo">
+        <h3>Travelers</h3>
+      </div>
+      <div class="menu-conteiner">
+        <a href="#">Home</a>
+        <a href="#">Destinations</a>
+        <a href="#">Gallery</a>
+        <a href="#">About Us</a>
+        <button class="menu-button" type="button">Book Guide</button>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="main-section">
+      <div class="main-conteiner">
+        <h2>
+          Know the <span>BEST</span> places to visit when you are on <span>VACATION</span>
+        </h2>
+        <p>We offer the best and relaxing atmosphere and have one of the best deal to sweeten your vacation and make it
+          a
+          trip
+          to
+          remember. We have luxurious destinations around the world.</p>
+      </div>
+      <!-- <div>
+        <img class="main-img" src="./img/Rectangle 4.png" alt="Турист в горах п'є воду">
+      </div> -->
+    </section>
+    <div class="main-take-you">
+      <p>
+        Where will we take you
+      </p>
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
+    <div class="main-input">
+      <form action="menu.php" method="post">
+        <select class="main-input-name" name=“contry”>
+          <option value="Country" selected>Country</option>
+          <option value="Ukraine">Ukraine</option>
+          <option value="Poland">Poland</option>
+          <option value="Germany">Germany</option>
+        </select>
+      </form>
+      <form action="menu.php" method="post">
+          <select class="main-input-name" name=“City”>
+          <option value="City" selected>City</option>
+          <option value="Kyiv">Kyiv</option>
+          <option value="Warsaw">Warsaw</option>
+          <option value="Berlin">Berlin</option>
+        </select>
+      </form>
+        <form action="menu.php" method="post">
+          <select class="main-input-name" name=“Place”>
+            <option value="Place" selected>Place</option>
+            <option value="Khreshchatyk">Khreshchatyk</option>
+            <option value="Stare Miasto">Stare Miasto</option>
+            <option value="Reichstag">Reichstag</option>
+          </select>
+        </form>
+          <button class="main-button" type="button">Search Place</button>
+    </div>
+  </main>
+  <footer>
+    <div class="fotter-text">
+      <p>See Destinations</p>
+      <i class="fa-solid fa-angles-down"></i>
+    </div>
+  </footer>
+</body>
+
+</html>

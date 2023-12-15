@@ -1,0 +1,175 @@
+  $colorPink: #BC436A;
+  $colorBG: #386E41;
+  $colorText: #333;
+  $colorTextLight: #767676;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sen', sans-serif;
+  font-style: normal;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+  background-image: url(../20/img/Rectangle\ 4.png);
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: top 7.5rem right 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.125rem 8rem 2.75rem 7.5rem;
+}
+
+h3 {
+  color: $colorPink;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.menu-conteiner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 2.5rem;
+  color: #767;
+  font-weight: 400;
+    &:hover {
+      color: $colorPink;
+      font-weight: 800;
+    }
+}
+
+.menu-button {
+  border-radius: 4px;
+  background: $colorBG;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 10px;
+  color: #FFF;
+  font-family: Avenir;
+  font-weight: 400;
+  border: none;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-conteiner {
+  padding-top: 12.375rem;
+  padding-left: 7.5rem;
+  margin-right: 45.87rem;
+  margin-bottom: 14.375rem;
+  ::after {
+      content: "";
+      width: 7.5rem;
+      height: 7.5rem;
+      bottom: 85px;
+      left: -50px;
+      border: 10px solid $colorBG;
+      position: fixed;
+  }
+}
+
+h2 {
+  color: $colorText;
+  font-size: 36px;
+  font-weight: 800;
+  padding-bottom: 1.44rem;
+}
+
+span {
+  color: $colorPink;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+p {
+  color: $colorTextLight;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main-img {
+  border-radius: 50%;
+}
+
+.main-take-you {
+  display: flex;
+  padding-bottom: 2.06rem;
+  padding-left: 7.5rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fa-chevron-right {
+  color: $colorTextLight;
+  padding-left: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.main-input {
+  display: flex;
+  margin: 0 auto;
+  height: 6.25rem;
+  border-radius: 8px;
+  background: $colorBG;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  width: 89%;
+}
+
+.main-input-name {
+  background: none;
+  border: 0;
+  color: white;
+  color: #FFF;
+  font-family: Avenir;
+  font-size: 1.125rem;
+  font-weight: 400;
+  width: 15.625rem;
+  background-image: url(../20/img/Line.png), url(../20/img/Line.png), url(../20/img/Line.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.main-button {
+  padding: 0.5rem 1.3rem;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: $colorPink;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.11);
+  color: #FFF;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+}
+
+.fotter-text {
+  padding-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-angles-down {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-top: 8px;
+  color: $colorTextLight;
+}
