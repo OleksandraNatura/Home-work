@@ -211,26 +211,37 @@ body {
   overflow: hidden;
 }
 
-.button-notify-my::after,
-.button-notify-my::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  top: 0;
-  left: -50%;
-  background-color: #0F89FA;
-  transition: all 0.3s ease-in-out;
-}
-
-.text {
-  z-index: 0;
-}
-
-.button-notify-my span {
+.button-notify-my:hover {
   position: relative;
-  z-index: 2;
+  overflow: hidden;
+}
+
+.button-notify-my:hover:before {
+  opacity: 1;
+  height: 100%;
+}
+
+.button-notify-my::before {
+  content: attr(data-hover);
+  position: absolute;
+  text-align: center;
+  color: black;
+  left: 0;
+  top: 33%;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+}
+
+.button-notify-my:hover div {
+  opacity: 0;
+  transform: translate(0, 100%);
+}
+
+.button-notify-my div {
+  transition: all .3s ease-in-out;
 }
 
 /* Hover me */
@@ -270,6 +281,10 @@ body {
 }
 
 .button-hover-me:hover {
+  color: #fff;
+}
+
+.button-hover-me:hover span {
   color: #fff;
 }
 
@@ -411,16 +426,13 @@ body {
   transition: all .35s;
 }
 
-.color-text-hover {
-  color: #0F89FA;
-}
-
 .hover-me:after {
   position: absolute;
   content: "";
+  z-index: -1;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 40%;
   height: 100%;
   border-radius: 28px;
   background-color: #0F89FA;
@@ -428,17 +440,9 @@ body {
   transition: all .35s;
 }
 
-.hover-me span {
+.hover-me {
   position: relative;
   z-index: 2;
-}
-
-.hover-me:hover {
-  color: #fff;
-}
-
-.color-text-hover:hover:after {
-  color: #fff;
 }
 
 .hover-me:hover:after {
@@ -448,5 +452,48 @@ body {
 /* Explore More */
 
 .explore-more {
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: rgba(255, 255, 255, 0.00);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  transition: all .35s;
+  z-index: -2;
+}
 
+.green {
+  position: relative;
+  z-index: -1;
+  bottom: 10px;
+  right: -10px;
+}
+
+.blue {
+  position: relative;
+  z-index: -1;
+  bottom: -10px;
+  left: -10px;
+}
+
+.explore-more span {
+  position: absolute;
+  z-index: 1;
+}
+
+.explore-more::before,
+.explore-more::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: -50%;
+  top: 0;
+  transform: skewx(0deg)
 }
