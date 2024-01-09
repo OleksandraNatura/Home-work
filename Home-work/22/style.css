@@ -498,7 +498,7 @@ body {
   height: 100%;
   background: #51B851;
   z-index: -1;
-  transition: all 0.3s ease-in-out;
+  transition: all 10s ease-in-out;
 }
 
 .explore-more::after {
@@ -510,9 +510,21 @@ body {
   height: 100%;
   background: #0F89FA;
   z-index: -1;
-  transition: all 0.3s ease-in-out;
+  transition: all 10s ease-in-out;
 }
 
-.explore-more:hover:after {
-  width: 100%;
+/* .explore-more:hover:after {
+  height: 100%;
+} */
+
+.explore-more:hover .green {
+  right: 169px;
+  bottom: 5px;
+  transform: skew(0);
+}
+
+.explore-more:hover .blue {
+  bottom: 5px;
+  left: 111px;
+  transform: skew(0);
 }
